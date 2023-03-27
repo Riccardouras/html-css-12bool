@@ -7,7 +7,7 @@
     <link rel="stylesheet" href="./css/style.css">
     <title>Document</title>
 </head>
-<body>
+<body class="debug">
     <header>
         <div class="flex container">
             <div class="justify-center flex col-12">col1</div>
@@ -27,9 +27,9 @@
     <main>
         <section>
             <div class="flex container">
-                <div class="flex justify-center col-12 col-3">col3</div>
-                <div class="flex justify-center col-12 col-6">col6</div>
-                <div class="flex justify-center col-12 col-6">col6</div>
+                <div class="flex justify-center col-12 col-2">col2</div>
+                <div class="flex justify-center col-12 col-5">col5</div>
+                <div class="flex justify-center col-12 col-5">col5</div>
             </div>
         </section>
         <section>
@@ -55,11 +55,95 @@
         </section>
         <section>
             <div class="flex container">
-                <div class="flex justify-center col-12 col-1">col1</div>
-                <div class="flex justify-center col-12 col-2">col2</div>
-                <div class="flex justify-center col-12 col-2">col2</div>
-                <div class="flex justify-center col-12 col-6">col6</div>
-                <div class="flex justify-center col-12 col-1">col1</div>
+               <div class="col-12 flex height">
+                    <div class="col-6 flex align-center ">
+                        <div id="nested" class=" col-12 col-2 flex justify-center align-center">nested col2</div>
+                        <div id="nested" class=" col-12 col-2 flex justify-center align-center">nested col2</div>
+                        <div id="nested" class=" col-12 col-8 flex justify-center align-center">nested col8</div>
+                    </div>
+                    <div class="col-6 flex align-center">
+                        <div id="nested" class=" col-12 col-6 flex justify-center align-center">nested col6</div>
+                        <div id="nested" class=" col-12 col-6 flex justify-center align-center">nested col6</div>
+                    </div>
+               </div>
+            </div>
+        </section>
+        <section>
+            <div class="container">
+                <div class="col-12 height"></div>
+            </div>
+            <div class="flex container height">
+                <div class="col-1"></div>
+                <div class="col-11"></div>
+            </div>
+            <div class="flex container height">
+                <div class="col-2"></div>
+                <div class="col-10"></div>
+            </div>
+            <div class="flex container height">
+                <div class="col-3"></div>
+                <div class="col-9"></div>
+            </div>
+            <div class="flex container height">
+                <div class="col-4"></div>
+                <div class="col-8"></div>
+            </div>
+            <div class="flex container height">
+                <div class="col-5"></div>
+                <div class="col-7"></div>
+            </div>
+            <div class="flex container height">
+                <div class="col-6"></div>
+                <div class="col-6"></div>
+            </div>
+        </section>
+        <section>
+            <div class="flex container height">
+                <div class="col-offset-1"></div>
+            </div>
+            <div class="flex container height">
+                <div class="col-offset-11"></div>
+                <div class="col-1"></div>
+            </div>
+            <div class="flex container height">
+                <div class="col-offset-10"></div>
+                <div class="col-2"></div>
+            </div>
+            <div class="flex container height">
+                <div class="col-offset-9"></div>
+                <div class="col-3"></div>
+            </div>
+            <div class="flex container height">
+                <div class="col-offset-8"></div>
+                <div class="col-4"></div>
+            </div>
+            <div class="flex container height">
+                <div class="col-offset-7"></div>
+                <div class="col-5"></div>
+            </div>
+            <div class="flex container height">
+                <div class="col-offset-6"></div>
+                <div class="col-6"></div>
+            </div>
+            <div class="flex container height">
+                <div class="col-offset-5"></div>
+                <div class="col-7"></div>
+            </div>
+            <div class="flex container height">
+                <div class="col-offset-4"></div>
+                <div class="col-8"></div>
+            </div>
+            <div class="flex container height">
+                <div class="col-offset-3"></div>
+                <div class="col-9"></div>
+            </div>
+            <div class="flex container height">
+                <div class="col-offset-2"></div>
+                <div class="col-10"></div>
+            </div>
+            <div class="flex container height">
+                <div class="col-offset-1"></div>
+                <div class="col-11"></div>
             </div>
         </section>
     </main>
